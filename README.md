@@ -5,8 +5,8 @@
 ```
 <android.widget.Button
    ***
-   android:background="@color/colorBackgroundButton"
    android:onClick="@{()->viewModel.onButtonClick()}"
+   android:text="@{viewModel.title}"
    />
 ```
 Максимальное количество воспроизводимых звуков равно 5. Но в случае, если ваши уши не выдерживают столько звуков одновременно, можно их сбросить нажав на кнопку, которая расположена в BottomAppBar.
